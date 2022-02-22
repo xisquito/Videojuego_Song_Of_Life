@@ -6,7 +6,7 @@ public class MusicPlayer : MonoBehaviour
 {
     private AudioSource audioSrc;
 
-    private float musicVolume = 1f;
+    private float musicVolume = 0.5f;
     // Start is called before the first frame update
     void Start()
     {
