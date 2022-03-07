@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Esqueleto_1 : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class Esqueleto_1 : MonoBehaviour
     private float verticalInput;
     private float LimY = 2f;
     private float PosY = 0f;
+
+
+
+   
     
 
     // Start is called before the first frame update
@@ -21,6 +26,9 @@ public class Esqueleto_1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
+
         verticalInput = Input.GetAxis("Vertical");
 
         transform.Translate(Vector3.up * Time.deltaTime * speed * verticalInput);
@@ -46,5 +54,7 @@ public class Esqueleto_1 : MonoBehaviour
             }
         }
     }
+
+   
     
 }
