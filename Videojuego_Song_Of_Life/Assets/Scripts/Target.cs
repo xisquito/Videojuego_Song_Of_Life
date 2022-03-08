@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Target : MonoBehaviour
 {
-
+    public ParticleSystem explosionParticle;
     private GameManager gameManagerScript;
+
+    
 
     [SerializeField] private int points; // Puntos que da el target
     private bool clickedOnGoodTarget;
@@ -30,8 +32,10 @@ public class Target : MonoBehaviour
             
             // Dar o quitar puntos
             gameManagerScript.UpdateScore(points);
+            Instantiate(explosionParticle,
+               transform.position,
+               explosionParticle.transform.rotation);
             
-
 
             if (gameObject.CompareTag("Player"))
             {
