@@ -37,6 +37,7 @@ public class Target : MonoBehaviour
                explosionParticle.transform.rotation);
             
 
+
             if (gameObject.CompareTag("Player"))
             {
                 clickedOnGoodTarget = true;
