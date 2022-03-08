@@ -286,9 +286,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1866797272417321929}
+  - component: {fileID: 4488698752159654022}
+  - component: {fileID: 756891277}
+  - component: {fileID: 756891278}
+  - component: {fileID: 756891279}
   m_Layer: 0
   m_Name: 1_esqueleto
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -300,12 +304,65 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9179429082845882256}
-  m_LocalRotation: {x: -0, y: 0.8421498, z: -0, w: 0.53924376}
+  m_LocalRotation: {x: 0, y: 0.8421514, z: 0, w: 0.53924125}
   m_LocalPosition: {x: 6.4443, y: -1.9446588, z: -0.5626297}
-  m_LocalScale: {x: 38.163364, y: 38.163364, z: 38.163364}
+  m_LocalScale: {x: 5.5, y: 5.5, z: 5.5}
   m_Children:
   - {fileID: 4366228862995663607}
   - {fileID: 7693036912998368703}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 114.736, z: 0}
+--- !u!114 &4488698752159654022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9179429082845882256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0e6ae5e1381a5a4dabcc0b90bb77af0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 10
+--- !u!114 &756891277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9179429082845882256}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5bed605d58cf54b8208ad78f95d8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &756891278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9179429082845882256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a999ece7b39e74399c317ffc16fc63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxY: 1.2
+  points: 10
+--- !u!64 &756891279
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9179429082845882256}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
