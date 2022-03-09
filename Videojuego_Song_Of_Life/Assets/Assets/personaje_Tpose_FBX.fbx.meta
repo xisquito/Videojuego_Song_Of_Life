@@ -1,0 +1,1786 @@
+fileFormatVersion: 2
+guid: 62bee068be794ce40b0a53bd22fec4d9
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftFoot' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 1
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: personaje_Tpose_FBX(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Esfera_ojo
+      parentName: personaje_Tpose_FBX(Clone)
+      position: {x: 0.0013234642, y: 0.10692494, z: 0.020634985}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.71359414, y: 0.71359414, z: 0.82606477}
+    - name: curva_ojo
+      parentName: personaje_Tpose_FBX(Clone)
+      position: {x: 0.0014520762, y: 0.113502726, z: 0.023298658}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.82606477, y: 0.82606477, z: 0.82606477}
+    - name: Personaje
+      parentName: personaje_Tpose_FBX(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skull
+      parentName: Personaje
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pelo
+      parentName: Personaje
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corbata
+      parentName: Personaje
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cuerpo
+      parentName: Personaje
+      position: {x: -0, y: 0.13591833, z: 0.014078773}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface2
+      parentName: cuerpo
+      position: {x: -0, y: -0.13591833, z: -0.014078773}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface3
+      parentName: cuerpo
+      position: {x: -0, y: -0.13591833, z: -0.014078773}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface5
+      parentName: cuerpo
+      position: {x: -0, y: -0.13591833, z: -0.014078773}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pPlane1
+      parentName: Personaje
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group
+      parentName: Personaje
+      position: {x: 0.014404592, y: 0.2927998, z: 0.024928799}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__curva_ojo
+      parentName: group
+      position: {x: 0.013210027, y: 0.0066212574, z: -0.009674343}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ojos_grupo
+      parentName: Personaje
+      position: {x: 0.0014520762, y: 0.29266343, z: 0.016711166}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ojos
+      parentName: Ojos_grupo
+      position: {x: -0.0014520764, y: 0.00008015537, z: 0.00020619133}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface6
+      parentName: Ojos
+      position: {x: -0, y: 0.0000005999686, z: 0.007957056}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface7
+      parentName: polySurface6
+      position: {x: -0.012865565, y: -0.29274416, z: -0.024874413}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface8
+      parentName: polySurface6
+      position: {x: 0.011767745, y: -0.29274416, z: -0.024874413}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: Parte_Negra_Ojos
+      parentName: Ojos_grupo
+      position: {x: -0.0014520762, y: -0.29266343, z: -0.016711166}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hombrera
+      parentName: Personaje
+      position: {x: 1.2212454e-16, y: 0.23861949, z: 0.0019557953}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hombrera_izq
+      parentName: hombrera
+      position: {x: -1.2212454e-16, y: -0.23861949, z: -0.0019557953}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hombrera_der
+      parentName: hombrera
+      position: {x: -1.2212454e-16, y: -0.23861949, z: -0.0019557953}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_cn_grobal
+      parentName: personaje_Tpose_FBX(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_back
+      parentName: Zack_ac_cn_grobal
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_back_elem
+      parentName: Zack_grp_back
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ik_cn_back
+      parentName: Zack_grp_back_elem
+      position: {x: -0, y: 0.23407161, z: 0}
+      rotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_crv_cn_back
+      parentName: Zack_grp_back_elem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_back_ac
+      parentName: Zack_grp_back
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_cn_torso
+      parentName: Zack_grp_back_ac
+      position: {x: -0, y: 0.15098795, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_cn_torso
+      parentName: Zack_offset_cn_torso
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_cn_chest
+      parentName: Zack_ac_cn_torso
+      position: {x: -0, y: 0.083085485, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_cn_chest
+      parentName: Zack_offset_cn_chest
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_cluster_cn_chest
+      parentName: Zack_ac_cn_chest
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_cluster_cn_chest
+      parentName: Zack_offset_cluster_cn_chest
+      position: {x: -0, y: -0.011848038, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_cn_hip
+      parentName: Zack_ac_cn_torso
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_cn_hip
+      parentName: Zack_offset_cn_hip
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_cluster_cn_hip
+      parentName: Zack_ac_cn_hip
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_cluster_cn_hip
+      parentName: Zack_offset_cluster_cn_hip
+      position: {x: -0, y: 0.023845328, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_cn_fkback01
+      parentName: Zack_ac_cn_torso
+      position: {x: -0, y: 0.025735369, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_cn_fkback02
+      parentName: Zack_ac_cn_fkback01
+      position: {x: -0, y: 0.030792903, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_back_joints
+      parentName: Zack_grp_back
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_cn_root
+      parentName: Zack_grp_back_joints
+      position: {x: -0, y: 0.15098795, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_cn_back01
+      parentName: Zack_skin_cn_root
+      position: {x: -0.0119973, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99997437, y: 1, z: 1}
+    - name: Zack_skin_cn_back02
+      parentName: Zack_skin_cn_back01
+      position: {x: -0.0098733995, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99997437, y: 1, z: 1}
+    - name: Zack_skin_cn_back03
+      parentName: Zack_skin_cn_back02
+      position: {x: -0.008975769, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99997437, y: 1, z: 1}
+    - name: Zack_skin_cn_back04
+      parentName: Zack_skin_cn_back03
+      position: {x: -0.010052868, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99997437, y: 1, z: 1}
+    - name: Zack_skin_cn_back05
+      parentName: Zack_skin_cn_back04
+      position: {x: -0.008796262, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99997437, y: 1, z: 1}
+    - name: Zack_skin_cn_back06
+      parentName: Zack_skin_cn_back05
+      position: {x: -0.0101888, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99997437, y: 1, z: 1}
+    - name: Zack_skin_cn_back07
+      parentName: Zack_skin_cn_back06
+      position: {x: -0.009575, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99997437, y: 1, z: 1}
+    - name: Zack_skin_cn_back08
+      parentName: Zack_skin_cn_back07
+      position: {x: -0.0067517, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99997437, y: 1, z: 1}
+    - name: Zack_skin_cn_back_end
+      parentName: Zack_skin_cn_back08
+      position: {x: -0.0068743816, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_cn_chest
+      parentName: Zack_grp_back_joints
+      position: {x: -0, y: 0.23407345, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_cn_chest_end
+      parentName: Zack_skin_cn_chest
+      position: {x: -0.028879762, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_head
+      parentName: Zack_ac_cn_grobal
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_head_ac
+      parentName: Zack_grp_head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_head
+      parentName: Zack_grp_head_ac
+      position: {x: -0, y: 0.27550745, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_head
+      parentName: Zack_offset_head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_neck_1
+      parentName: Zack_grp_head_ac
+      position: {x: -0, y: 0.26385573, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_neck_1
+      parentName: Zack_offset_neck_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.46452215, z: 0.46452215}
+    - name: Zack_offset_neck_2
+      parentName: Zack_ac_neck_1
+      position: {x: -0.0060192775, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_neck_2
+      parentName: Zack_offset_neck_2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset2_cn_neck
+      parentName: Zack_ac_neck_2
+      position: {x: -0.00563245, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_head_joints
+      parentName: Zack_grp_head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_cn_head01
+      parentName: Zack_grp_head_joints
+      position: {x: -0, y: 0.27550745, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_cn_head_end
+      parentName: Zack_skin_cn_head01
+      position: {x: -0.043853033, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_cn_neck01
+      parentName: Zack_grp_head_joints
+      position: {x: -0, y: 0.26385573, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_cn_neck02
+      parentName: Zack_skin_cn_neck01
+      position: {x: -0.0060192775, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_cn_neck_end
+      parentName: Zack_skin_cn_neck02
+      position: {x: -0.0056324513, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_arm
+      parentName: Zack_ac_cn_grobal
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_Lf_arm_joints
+      parentName: Zack_grp_arm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_twistarm01
+      parentName: Zack_grp_Lf_arm_joints
+      position: {x: -0.07724059, y: 0.23080012, z: 0.00000043221988}
+      rotation: {x: 0.018002884, y: 0.0016124108, z: -0.010660716, w: 0.9997798}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_twistarm02
+      parentName: Zack_skin_Lf_twistarm01
+      position: {x: -0.006540209, y: -0.00065613276, z: 1.05280686e-13}
+      rotation: {x: -0.0021766094, y: -0.00069968874, z: 0.018330328, w: 0.9998294}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_twistarm03
+      parentName: Zack_skin_Lf_twistarm02
+      position: {x: -0.0049079, y: -0.00014999999, z: 0}
+      rotation: {x: -0.002267924, y: -0.00030060625, z: -0.016024373, w: 0.999869}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_twistarm04
+      parentName: Zack_skin_Lf_twistarm03
+      position: {x: -0.003105, y: -0.00014999999, z: -6.7762634e-23}
+      rotation: {x: -0.0022587264, y: -0.00016438955, z: 0.006762185, w: 0.9999746}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_twistarm05
+      parentName: Zack_skin_Lf_twistarm04
+      position: {x: -0.0035056998, y: -0.0001, z: 6.7762634e-23}
+      rotation: {x: -0.0022638885, y: -0.00008708298, z: -0.005061819, w: 0.9999846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_twistarm06
+      parentName: Zack_skin_Lf_twistarm05
+      position: {x: -0.0040064002, y: -0.00014999999, z: 6.7762634e-23}
+      rotation: {x: -0.0022575972, y: -0.000013197195, z: 0.015085555, w: 0.99988365}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_twistarm07
+      parentName: Zack_skin_Lf_twistarm06
+      position: {x: -0.0040062, y: -0.000051, z: -6.7762634e-23}
+      rotation: {x: -0.0022630193, y: -0.000009312217, z: -0.015051141, w: 0.9998842}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_twistarm08
+      parentName: Zack_skin_Lf_twistarm07
+      position: {x: -0.003656, y: -0.0002, z: 0}
+      rotation: {x: -0.002266124, y: -0.00001630775, z: 0.029651167, w: 0.9995578}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_twistarm09
+      parentName: Zack_skin_Lf_twistarm08
+      position: {x: -0.0038059999, y: -0.00005, z: 0}
+      rotation: {x: -0.0022560244, y: -0.000084747306, z: -0.024504807, w: 0.99969715}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_twistarm_end
+      parentName: Zack_skin_Lf_twistarm09
+      position: {x: -0.004007, y: -0.00035100002, z: -6.7762634e-23}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_uparm
+      parentName: Zack_grp_Lf_arm_joints
+      position: {x: -0.039390884, y: 0.23286088, z: 0}
+      rotation: {x: -0.030055555, y: -0.0011619738, z: 0.015553259, w: 0.99942654}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_lowarm
+      parentName: Zack_skin_Lf_uparm
+      position: {x: -0.0378955, y: -0.000882, z: 0}
+      rotation: {x: 0.048147015, y: 0.002066647, z: -0.019816926, w: 0.99864155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_sk_Lf_arm_end
+      parentName: Zack_skin_Lf_lowarm
+      position: {x: -0.045716, y: -0.0028819998, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_crv_Lf_twistarm
+      parentName: Zack_skin_Lf_lowarm
+      position: {x: 0.07920387, y: -0.2299766, z: 0.008504623}
+      rotation: {x: -0.018095562, y: -0.0010583006, z: 0.004279598, w: 0.99982655}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_hand
+      parentName: Zack_grp_Lf_arm_joints
+      position: {x: -0.12297958, y: 0.2283096, z: -3.8042486e-17}
+      rotation: {x: 0, y: 0, z: 0.027022874, w: 0.99963486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_sk_Lf_hand_end
+      parentName: Zack_skin_Lf_hand
+      position: {x: -0.014408944, y: 3.5527136e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_middle01
+      parentName: Zack_skin_Lf_hand
+      position: {x: -0.023086336, y: 0.0004694872, z: 0.0031658532}
+      rotation: {x: 0.0027872277, y: 0.050597988, z: 0.000976544, w: 0.99871475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_middle02
+      parentName: Zack_skin_Lf_middle01
+      position: {x: -0.007935602, y: 3.5527136e-17, z: 2.220446e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_middle03
+      parentName: Zack_skin_Lf_middle02
+      position: {x: -0.0061158855, y: -7.105427e-17, z: 4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_middle_end
+      parentName: Zack_skin_Lf_middle03
+      position: {x: -0.0065760994, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_pinkie01
+      parentName: Zack_skin_Lf_hand
+      position: {x: -0.02153757, y: 0.00054039893, z: -0.008892915}
+      rotation: {x: 0.0029115311, y: -0.11762152, z: 0.0004952421, w: 0.99305415}
+      scale: {x: 0.81397843, y: 1, z: 1}
+    - name: Zack_skin_Lf_pinkie02
+      parentName: Zack_skin_Lf_pinkie01
+      position: {x: -0.007935602, y: 3.5527136e-17, z: 2.220446e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.93391514, y: 1, z: 1}
+    - name: Zack_skin_Lf_pinkie03
+      parentName: Zack_skin_Lf_pinkie02
+      position: {x: -0.0061158855, y: -7.105427e-17, z: 4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.8744982, y: 1, z: 1}
+    - name: Zack_skin_Lf_pinkie_end
+      parentName: Zack_skin_Lf_pinkie03
+      position: {x: -0.0065760994, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_ring01
+      parentName: Zack_skin_Lf_hand
+      position: {x: -0.023655228, y: 0.000506793, z: -0.0035855703}
+      rotation: {x: 0.0028451935, y: -0.014910825, z: 0.0007919281, w: 0.9998845}
+      scale: {x: 0.83152705, y: 1, z: 1}
+    - name: Zack_skin_Lf_ring02
+      parentName: Zack_skin_Lf_ring01
+      position: {x: -0.007935602, y: 3.5527136e-17, z: 2.220446e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_ring03
+      parentName: Zack_skin_Lf_ring02
+      position: {x: -0.0061158855, y: -7.105427e-17, z: 4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_ring_end
+      parentName: Zack_skin_Lf_ring03
+      position: {x: -0.0065760994, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_index01
+      parentName: Zack_skin_Lf_hand
+      position: {x: -0.020345828, y: 0.00044368586, z: 0.0085264}
+      rotation: {x: 0.011025123, y: 0.24082607, z: 0.035624515, w: 0.9698516}
+      scale: {x: 0.8291605, y: 1, z: 1}
+    - name: Zack_skin_Lf_index02
+      parentName: Zack_skin_Lf_index01
+      position: {x: -0.007935602, y: 3.5527136e-17, z: 2.220446e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_index03
+      parentName: Zack_skin_Lf_index02
+      position: {x: -0.0061158855, y: -7.105427e-17, z: 4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_index_end
+      parentName: Zack_skin_Lf_index03
+      position: {x: -0.0065760994, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_thumb01
+      parentName: Zack_skin_Lf_hand
+      position: {x: -0.013549273, y: -0.003135348, z: 0.010527866}
+      rotation: {x: 0.060629502, y: 0.4168821, z: 0.15856242, w: 0.89296776}
+      scale: {x: 0.73721683, y: 1, z: 1}
+    - name: Zack_skin_Lf_thumb02
+      parentName: Zack_skin_Lf_thumb01
+      position: {x: -0.007935602, y: 3.5527136e-17, z: 2.220446e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.71164346, y: 1, z: 1}
+    - name: Zack_skin_Lf_thumb03
+      parentName: Zack_skin_Lf_thumb02
+      position: {x: -0.0061158855, y: -7.105427e-17, z: 4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.68372786, y: 1, z: 1}
+    - name: Zack_skin_Lf_thumb_end
+      parentName: Zack_skin_Lf_thumb03
+      position: {x: -0.0065760994, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_shoulder
+      parentName: Zack_grp_Lf_arm_joints
+      position: {x: -0.015925786, y: 0.24452443, z: 0}
+      rotation: {x: 0, y: 0, z: 0.22860666, w: 0.9735189}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_sk_Lf_shoulder_end
+      parentName: Zack_skin_Lf_shoulder
+      position: {x: -0.026203992, y: -3.5527136e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_Rg_arm_joints
+      parentName: Zack_grp_arm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -2.7315203e-34, y: -1.3861962e-34, z: -0.53301394, w: 0.8461065}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistarm01
+      parentName: Zack_grp_Rg_arm_joints
+      position: {x: 0.0772406, y: 0.23079999, z: 0.00000043222}
+      rotation: {x: 0.99978, y: 0.010659097, z: -0.0016111735, w: 0.017992783}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistarm02
+      parentName: Zack_skin_Rg_twistarm01
+      position: {x: 0.0065401997, y: 0.000656, z: -8.0366484e-20}
+      rotation: {x: -0.033848643, y: -0.0010634621, z: 0.018335171, w: 0.9992582}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistarm03
+      parentName: Zack_skin_Rg_twistarm02
+      position: {x: 0.0049079, y: 0.00014999999, z: -1.8363675e-20}
+      rotation: {x: -0.06537867, y: -0.0013697464, z: -0.015903953, w: 0.9977329}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistarm04
+      parentName: Zack_skin_Rg_twistarm03
+      position: {x: 0.003105, y: 0.00014999999, z: -1.8363675e-20}
+      rotation: {x: -0.12819137, y: -0.0038166577, z: 0.006884372, w: 0.99171823}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistarm05
+      parentName: Zack_skin_Rg_twistarm04
+      position: {x: 0.0035056998, y: 0.0001, z: -1.2265037e-20}
+      rotation: {x: -0.25197697, y: -0.007897396, z: -0.004755131, w: 0.96768934}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistarm06
+      parentName: Zack_skin_Rg_twistarm05
+      position: {x: 0.0040064002, y: 0.00014999999, z: -1.8363675e-20}
+      rotation: {x: -0.48588502, y: -0.014923121, z: 0.010957902, w: 0.8738266}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistarm07
+      parentName: Zack_skin_Rg_twistarm06
+      position: {x: 0.0040062, y: 0.000051, z: -6.234162e-21}
+      rotation: {x: -0.84792316, y: -0.029236244, z: -0.016964113, w: 0.52904046}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistarm08
+      parentName: Zack_skin_Rg_twistarm07
+      position: {x: 0.003656, y: 0.0002, z: -2.4597836e-20}
+      rotation: {x: 0.8988156, y: 0.028559916, z: 0.00038806838, w: 0.43739542}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistarm09
+      parentName: Zack_skin_Rg_twistarm08
+      position: {x: 0.0038059999, y: 0.00005, z: -5.963112e-21}
+      rotation: {x: -0.78375536, y: -0.04470954, z: -0.034427285, w: 0.6185009}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistarm_end
+      parentName: Zack_skin_Rg_twistarm09
+      position: {x: 0.004007, y: 0.00035100002, z: -4.296151e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_uparm
+      parentName: Zack_grp_Rg_arm_joints
+      position: {x: 0.0393909, y: 0.232861, z: -8.0746113e-35}
+      rotation: {x: 0.8470664, y: 0.5306352, z: 0.01537132, w: 0.025856312}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_lowarm
+      parentName: Zack_skin_Rg_uparm
+      position: {x: 0.037895538, y: 0.000882401, z: -1.0806295e-19}
+      rotation: {x: 0.04813534, y: 0.0020659964, z: -0.019803988, w: 0.9986423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_sk_Rg_arm_end
+      parentName: Zack_skin_Rg_lowarm
+      position: {x: 0.045716457, y: 0.002881323, z: -6.0719346e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_crv_Rg_twistarm
+      parentName: Zack_skin_Rg_lowarm
+      position: {x: -0.07920125, y: 0.22997792, z: -0.00849983}
+      rotation: {x: 0.9998268, y: 0.004273719, z: 0.0010575161, w: 0.018085381}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_hand
+      parentName: Zack_grp_Rg_arm_joints
+      position: {x: 0.12298008, y: 0.22830999, z: -7.920652e-17}
+      rotation: {x: 0.99963486, y: -0.027022874, z: -1.6546738e-18, w: 6.120998e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_sk_Rg_hand_end
+      parentName: Zack_skin_Rg_hand
+      position: {x: 0.014408074, y: 0.0000005901307, z: -9.539999e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_middle01
+      parentName: Zack_skin_Rg_hand
+      position: {x: 0.023086304, y: -0.00046894993, z: -0.00316585}
+      rotation: {x: 0.0027872277, y: 0.050597988, z: 0.000976544, w: 0.99871475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_middle02
+      parentName: Zack_skin_Rg_middle01
+      position: {x: 0.007935126, y: -0.00000019795434, z: -0.00000005151653}
+      rotation: {x: 4.3876307e-19, y: -2.6008147e-18, z: -4.3368087e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_middle03
+      parentName: Zack_skin_Rg_middle02
+      position: {x: 0.00611593, y: -0.0000003620534, z: 0.000000010877802}
+      rotation: {x: -2.3044378e-17, y: -2.3529305e-17, z: -3.3711064e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_middle_end
+      parentName: Zack_skin_Rg_middle03
+      position: {x: 0.0065760827, y: 0.00000088116684, z: -0.000000013033848}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_pinkie01
+      parentName: Zack_skin_Rg_hand
+      position: {x: 0.021537181, y: -0.0005403614, z: 0.00889292}
+      rotation: {x: 0.0029115311, y: -0.11762152, z: 0.0004952421, w: 0.99305415}
+      scale: {x: 0.81397843, y: 1, z: 1}
+    - name: Zack_skin_Rg_pinkie02
+      parentName: Zack_skin_Rg_pinkie01
+      position: {x: 0.00793517, y: 0.0000007745873, z: 0.000000064487494}
+      rotation: {x: -1.1666015e-16, y: 0, z: -0, w: 1}
+      scale: {x: 0.93391514, y: 1, z: 1}
+    - name: Zack_skin_Rg_pinkie03
+      parentName: Zack_skin_Rg_pinkie02
+      position: {x: 0.0061163865, y: -0.0000007747968, z: -0.00000013420083}
+      rotation: {x: -3.5395912e-17, y: 0, z: -0, w: 1}
+      scale: {x: 0.8744982, y: 1, z: 1}
+    - name: Zack_skin_Rg_pinkie_end
+      parentName: Zack_skin_Rg_pinkie03
+      position: {x: 0.0065756766, y: 0.00000021205486, z: 0.00000013653613}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_ring01
+      parentName: Zack_skin_Rg_hand
+      position: {x: 0.023655092, y: -0.0005067345, z: 0.0035855698}
+      rotation: {x: 0.0028451935, y: -0.014910825, z: 0.0007919281, w: 0.9998845}
+      scale: {x: 0.83152705, y: 1, z: 1}
+    - name: Zack_skin_Rg_ring02
+      parentName: Zack_skin_Rg_ring01
+      position: {x: 0.007934985, y: 0.0000008133486, z: 0.000000010552616}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_ring03
+      parentName: Zack_skin_Rg_ring02
+      position: {x: 0.006116126, y: -0.0000004368957, z: -0.000000006996063}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_ring_end
+      parentName: Zack_skin_Rg_ring03
+      position: {x: 0.006576067, y: 0.000000037893663, z: 0.0000000036455228}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_thumb01
+      parentName: Zack_skin_Rg_hand
+      position: {x: 0.013549113, y: 0.0031355706, z: -0.0105279}
+      rotation: {x: 0.060629502, y: 0.4168821, z: 0.15856242, w: 0.89296776}
+      scale: {x: 0.73721683, y: 1, z: 1}
+    - name: Zack_skin_Rg_thumb02
+      parentName: Zack_skin_Rg_thumb01
+      position: {x: 0.007935568, y: 0.00000012833475, z: 0.00000004448457}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.71164346, y: 1, z: 1}
+    - name: Zack_skin_Rg_thumb03
+      parentName: Zack_skin_Rg_thumb02
+      position: {x: 0.006115646, y: 0.00000011243373, z: -0.00000033648462}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.68372786, y: 1, z: 1}
+    - name: Zack_skin_Rg_thumb_end
+      parentName: Zack_skin_Rg_thumb03
+      position: {x: 0.0065759867, y: 0.00000044705777, z: -0.00000021108849}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_index01
+      parentName: Zack_skin_Rg_hand
+      position: {x: 0.020345712, y: -0.00044284854, z: -0.0085264}
+      rotation: {x: 0.011025123, y: 0.24082607, z: 0.035624515, w: 0.9698516}
+      scale: {x: 0.8291605, y: 1, z: 1}
+    - name: Zack_skin_Rg_index02
+      parentName: Zack_skin_Rg_index01
+      position: {x: 0.007935529, y: -0.00000024522132, z: -0.00000001970546}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_index03
+      parentName: Zack_skin_Rg_index02
+      position: {x: 0.0061153625, y: -0.00000061395633, z: -0.00000023074057}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_index_end
+      parentName: Zack_skin_Rg_index03
+      position: {x: 0.006576406, y: 0.00000017302351, z: 0.000000080305945}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_shoulder
+      parentName: Zack_grp_Rg_arm_joints
+      position: {x: 0.015925799, y: 0.244524, z: 3.9443044e-33}
+      rotation: {x: 0.9735189, y: -0.22860666, z: -1.3998121e-17, w: 5.9610844e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_sk_Rg_shoulder_end
+      parentName: Zack_skin_Rg_shoulder
+      position: {x: 0.026203748, y: -0.0000004914719, z: 6.018795e-23}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_Lf_arm_ac
+      parentName: Zack_grp_arm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_ikhand
+      parentName: Zack_grp_Lf_arm_ac
+      position: {x: -0.12297951, y: 0.2283096, z: 0}
+      rotation: {x: 0, y: 0, z: 0.027022874, w: 0.99963486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_ikhand
+      parentName: Zack_offset_Lf_ikhand
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_elbow
+      parentName: Zack_grp_Lf_arm_ac
+      position: {x: -0.077243656, y: 0.2308573, z: -0.07396788}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_elbow
+      parentName: Zack_offset_Lf_elbow
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_FKuparm
+      parentName: Zack_grp_Lf_arm_ac
+      position: {x: -0.039390884, y: 0.23286088, z: 0}
+      rotation: {x: -0.030055555, y: -0.0011619738, z: 0.015553259, w: 0.99942654}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_FKuparm
+      parentName: Zack_offset_Lf_FKuparm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_FKlowarm
+      parentName: Zack_ac_Lf_FKuparm
+      position: {x: -0.0378955, y: -0.000882, z: 2.220446e-18}
+      rotation: {x: 0.048147015, y: 0.002066647, z: -0.019816926, w: 0.99864155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_FKlowarm
+      parentName: Zack_offset_Lf_FKlowarm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_FKhand
+      parentName: Zack_ac_Lf_FKlowarm
+      position: {x: -0.04571592, y: -0.0028819952, z: -7.354639e-13}
+      rotation: {x: -0.018117553, y: -0.00056892005, z: 0.03129622, w: 0.9993458}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_FKhand
+      parentName: Zack_offset_Lf_FKhand
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_ikfkhand
+      parentName: Zack_grp_Lf_arm_ac
+      position: {x: -0.13736741, y: 0.22753114, z: -0.03001617}
+      rotation: {x: 0, y: 0, z: 2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_shoulder
+      parentName: Zack_grp_Lf_arm_ac
+      position: {x: -0.015925786, y: 0.24452443, z: 0}
+      rotation: {x: 0, y: 0, z: 0.22860666, w: 0.9735189}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_shoulder
+      parentName: Zack_offset_Lf_shoulder
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_indice01
+      parentName: Zack_grp_Lf_arm_ac
+      position: {x: -0.14331967, y: 0.22765344, z: 0.0085264}
+      rotation: {x: 0.004513285, y: 0.24103606, z: 0.061819684, w: 0.96853477}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_indice01
+      parentName: Zack_offset_Lf_indice01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_indice02
+      parentName: Zack_ac_Lf_indice01
+      position: {x: -0.0065798876, y: 3.5527136e-17, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_indice02
+      parentName: Zack_offset_Lf_indice02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_indice03
+      parentName: Zack_ac_Lf_indice02
+      position: {x: -0.0061158855, y: -1.7763567e-16, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_indice03
+      parentName: Zack_offset_Lf_indice03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_middle01
+      parentName: Zack_grp_Lf_arm_ac
+      position: {x: -0.14605756, y: 0.22753114, z: 0.0031658532}
+      rotation: {x: 0.0014189071, y: 0.050654836, z: 0.02796433, w: 0.9983237}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_middle01
+      parentName: Zack_offset_Lf_middle01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_middle02
+      parentName: Zack_ac_Lf_middle01
+      position: {x: -0.007935602, y: 3.5527136e-17, z: 4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_middle02
+      parentName: Zack_offset_Lf_middle02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_middle03
+      parentName: Zack_ac_Lf_middle02
+      position: {x: -0.0061158855, y: -1.0658141e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_middle03
+      parentName: Zack_offset_Lf_middle03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_pinkie01
+      parentName: Zack_grp_Lf_arm_ac
+      position: {x: -0.14451489, y: 0.22768562, z: -0.008892915}
+      rotation: {x: 0.006088939, y: -0.11749989, z: 0.027330237, w: 0.9926781}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_pinkie01
+      parentName: Zack_offset_Lf_pinkie01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_pinkie02
+      parentName: Zack_ac_Lf_pinkie01
+      position: {x: -0.0064594094, y: 3.5527136e-17, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_pinkie02
+      parentName: Zack_offset_Lf_pinkie02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_pinkie03
+      parentName: Zack_ac_Lf_pinkie02
+      position: {x: -0.005711718, y: -3.5527136e-17, z: -8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_pinkie03
+      parentName: Zack_offset_Lf_pinkie03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_ring01
+      parentName: Zack_grp_Lf_arm_ac
+      position: {x: -0.14662765, y: 0.22753766, z: -0.0035855703}
+      rotation: {x: 0.0032470878, y: -0.014828494, z: 0.02781139, w: 0.99949795}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_ring01
+      parentName: Zack_offset_Lf_ring01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_ring02
+      parentName: Zack_ac_Lf_ring01
+      position: {x: -0.006598668, y: 0, z: 1.2490008e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_ring02
+      parentName: Zack_offset_Lf_ring02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_ring03
+      parentName: Zack_ac_Lf_ring02
+      position: {x: -0.0061158855, y: -3.5527136e-17, z: 5.5511148e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_ring03
+      parentName: Zack_offset_Lf_ring03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_thumb01
+      parentName: Zack_grp_Lf_arm_ac
+      position: {x: -0.13633968, y: 0.22444683, z: 0.010527866}
+      rotation: {x: 0.049342006, y: 0.41836822, z: 0.18263505, w: 0.8883568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_thumb01
+      parentName: Zack_offset_Lf_thumb01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_thumb02
+      parentName: Zack_ac_Lf_thumb01
+      position: {x: -0.0058502597, y: 3.5527136e-17, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_thumb02
+      parentName: Zack_offset_Lf_thumb02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_thumb03
+      parentName: Zack_ac_Lf_thumb02
+      position: {x: -0.0043523298, y: -7.105427e-17, z: 5.3290704e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_thumb03
+      parentName: Zack_offset_Lf_thumb03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_Rg_arm_ac
+      parentName: Zack_grp_arm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_ikhand
+      parentName: Zack_grp_Rg_arm_ac
+      position: {x: 0.12298, y: 0.22830999, z: 0}
+      rotation: {x: 0.99963486, y: -0.027022874, z: -4.9616047e-18, w: 6.112059e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_ikhand
+      parentName: Zack_offset_Rg_ikhand
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_elbow
+      parentName: Zack_grp_Rg_arm_ac
+      position: {x: 0.0772437, y: 0.23085698, z: -0.074480675}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_elbow
+      parentName: Zack_offset_Rg_elbow
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_FKuparm
+      parentName: Zack_grp_Rg_arm_ac
+      position: {x: 0.0393909, y: 0.232861, z: 1.571792e-33}
+      rotation: {x: 0.9994267, y: -0.015546178, z: -0.0011620038, w: 0.03005406}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_FKuparm
+      parentName: Zack_offset_Rg_FKuparm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_FKlowarm
+      parentName: Zack_ac_Rg_FKuparm
+      position: {x: 0.037895538, y: 0.000882401, z: -2.220446e-18}
+      rotation: {x: 0.04813534, y: 0.0020659964, z: -0.019803988, w: 0.9986423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_FKlowarm
+      parentName: Zack_offset_Rg_FKlowarm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_FKhand
+      parentName: Zack_ac_Rg_FKlowarm
+      position: {x: 0.045716375, y: 0.0028813183, z: -5.9991026e-11}
+      rotation: {x: -0.018107357, y: -0.0005684109, z: 0.031290356, w: 0.99934614}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_FKhand
+      parentName: Zack_offset_Rg_FKhand
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_ikfkhand
+      parentName: Zack_grp_Rg_arm_ac
+      position: {x: 0.13133445, y: 0.22387354, z: -0.03241401}
+      rotation: {x: -0, y: 8.890929e-33, z: -7.2858386e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ofset_Rg_shoulder
+      parentName: Zack_grp_Rg_arm_ac
+      position: {x: 0.015925799, y: 0.244524, z: 0}
+      rotation: {x: 0.9735189, y: -0.22860666, z: -1.3998121e-17, w: 5.9610844e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_shoulder
+      parentName: Zack_ofset_Rg_shoulder
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_indice01
+      parentName: Zack_grp_Rg_arm_ac
+      position: {x: 0.14332, y: 0.227653, z: 0.0085264}
+      rotation: {x: 0.96853477, y: -0.061819684, z: 0.24103606, w: -0.004513285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_indice01
+      parentName: Zack_offset_Rg_indice01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_indice02
+      parentName: Zack_ac_Rg_indice01
+      position: {x: 0.006579827, y: -0.00000024522132, z: -0.00000001970546}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_indice02
+      parentName: Zack_offset_Rg_indice02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_indice03
+      parentName: Zack_ac_Rg_indice02
+      position: {x: 0.0061153625, y: -0.00000061395633, z: -0.00000023074057}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_indice03
+      parentName: Zack_offset_Rg_indice03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_pinkie01
+      parentName: Zack_grp_Rg_arm_ac
+      position: {x: 0.144515, y: 0.227686, z: -0.00889292}
+      rotation: {x: 0.9926781, y: -0.027330237, z: -0.11749989, w: -0.006088939}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_pinkie01
+      parentName: Zack_offset_Rg_pinkie01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_pinkie02
+      parentName: Zack_ac_Rg_pinkie01
+      position: {x: 0.0064590573, y: 0.0000007745873, z: 0.000000064487494}
+      rotation: {x: 0.000000014901161, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_pinkie02
+      parentName: Zack_offset_Rg_pinkie02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_pinkie03
+      parentName: Zack_ac_Rg_pinkie02
+      position: {x: 0.005712186, y: -0.0000007747968, z: -0.00000013420083}
+      rotation: {x: 0.000000021073424, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_pinkie03
+      parentName: Zack_offset_Rg_pinkie03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_middle01
+      parentName: Zack_grp_Rg_arm_ac
+      position: {x: 0.146058, y: 0.22753099, z: 0.00316585}
+      rotation: {x: 0.9983236, y: -0.027964327, z: 0.050654832, w: -0.001418907}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_middle01
+      parentName: Zack_offset_Rg_middle01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_middle02
+      parentName: Zack_ac_Rg_middle01
+      position: {x: 0.007935126, y: -0.00000019795434, z: -0.00000005151653}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_middle02
+      parentName: Zack_offset_Rg_middle02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.0010864722, y: 0.003959215, z: 0.0032173528, w: 0.9999864}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_middle03
+      parentName: Zack_ac_Rg_middle02
+      position: {x: 0.00611593, y: -0.0000003620534, z: 0.000000010877802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_middle03
+      parentName: Zack_offset_Rg_middle03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_ring01
+      parentName: Zack_grp_Rg_arm_ac
+      position: {x: 0.14662799, y: 0.22753799, z: -0.0035855698}
+      rotation: {x: 0.99949795, y: -0.02781139, z: -0.014828494, w: -0.0032470878}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_ring01
+      parentName: Zack_offset_Rg_ring01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_ring02
+      parentName: Zack_ac_Rg_ring01
+      position: {x: 0.006598154, y: 0.0000008133486, z: 0.000000010552616}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_ring02
+      parentName: Zack_offset_Rg_ring02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_ring03
+      parentName: Zack_ac_Rg_ring02
+      position: {x: 0.006116126, y: -0.0000004368957, z: -0.000000006996063}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_ring03
+      parentName: Zack_offset_Rg_ring03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_thumb01
+      parentName: Zack_grp_Rg_arm_ac
+      position: {x: 0.13633999, y: 0.224447, z: 0.0105279}
+      rotation: {x: 0.88835686, y: -0.18263507, z: 0.41836825, w: -0.04934201}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_thumb01
+      parentName: Zack_offset_Rg_thumb01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_thumb02
+      parentName: Zack_ac_Rg_thumb01
+      position: {x: 0.005850234, y: 0.00000012833475, z: 0.00000004448457}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_thumb02
+      parentName: Zack_offset_Rg_thumb02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_thumb03
+      parentName: Zack_ac_Rg_thumb02
+      position: {x: 0.00435216, y: 0.00000011243373, z: -0.00000033648462}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_thumb03
+      parentName: Zack_offset_Rg_thumb03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_Lf_arm_elem
+      parentName: Zack_grp_arm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ik_Lf_arm
+      parentName: Zack_grp_Lf_arm_elem
+      position: {x: -0.12297958, y: 0.2283096, z: -3.8042486e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ik_Lf_twistarm
+      parentName: Zack_grp_Lf_arm_elem
+      position: {x: -0.114790246, y: 0.22894104, z: 0.00000043222}
+      rotation: {x: 0.000008604915, y: 0.0000007408785, z: -0.0014859604, w: 0.9999989}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_Rg_arm_elem
+      parentName: Zack_grp_arm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ik_Rg_arm
+      parentName: Zack_grp_Rg_arm_elem
+      position: {x: 0.12298008, y: 0.22830999, z: -7.920652e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ik_Rg_twistarm
+      parentName: Zack_grp_Rg_arm_elem
+      position: {x: 0.114790246, y: 0.22894104, z: 0.00000043222}
+      rotation: {x: -0.23314731, y: -0.00034624332, z: -0.08341898, w: 0.9688568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_Rg_leg
+      parentName: Zack_ac_cn_grobal
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_Rg_leg_joints
+      parentName: Zack_grp_Rg_leg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offsetSK_Rg_upleg
+      parentName: Zack_grp_Rg_leg_joints
+      position: {x: 0.0198457, y: 0.14864899, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_upleg
+      parentName: Zack_offsetSK_Rg_upleg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.71070355, y: -0.7007938, z: 0.047677588, w: 0.038927034}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_lowleg
+      parentName: Zack_skin_Rg_upleg
+      position: {x: 0.051259592, y: 2.9143353e-18, z: 0.005967799}
+      rotation: {x: -1.6085565e-15, y: -0.0882882, z: -4.1683152e-14, w: 0.996095}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_leg_end
+      parentName: Zack_skin_Rg_lowleg
+      position: {x: 0.07214265, y: -2.220446e-18, z: 5.997877e-10}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_crv_Rg_twistleg
+      parentName: Zack_skin_Rg_lowleg
+      position: {x: 0.096598804, y: 0.022034118, z: -0.0051422915}
+      rotation: {x: 0.71213764, y: -0.70149404, z: -0.015255332, w: 0.023096807}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistleg01
+      parentName: Zack_grp_Rg_leg_joints
+      position: {x: 0.02060268, y: 0.0970499, z: 0.00034794857}
+      rotation: {x: 0.7014956, y: 0.71213615, z: 0.023095, w: -0.015253582}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistleg02
+      parentName: Zack_skin_Rg_twistleg01
+      position: {x: -0.0071256915, y: -0.000000008460377, z: 0.000000037776466}
+      rotation: {x: -0.08642527, y: -0.000000023544493, z: 0.00000023203226, w: 0.9962584}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistleg03
+      parentName: Zack_skin_Rg_twistleg02
+      position: {x: -0.006139125, y: -0.0000000016724574, z: 0.00000001648216}
+      rotation: {x: -0.08647043, y: 0.000000014804983, z: -0.00000010168993, w: 0.99625444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistleg04
+      parentName: Zack_skin_Rg_twistleg03
+      position: {x: -0.0050429893, y: 8.634323e-10, z: -0.0000000059305956}
+      rotation: {x: -0.08655549, y: -0.00000018234286, z: 0.0000005233452, w: 0.99624705}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistleg05
+      parentName: Zack_skin_Rg_twistleg04
+      position: {x: -0.004823841, y: -0.000000010162187, z: 0.000000029166655}
+      rotation: {x: -0.086670496, y: 0.0000001437499, z: -0.00000068950976, w: 0.99623704}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistleg06
+      parentName: Zack_skin_Rg_twistleg05
+      position: {x: -0.0070009916, y: 0.000000011611701, z: -0.0000000556966}
+      rotation: {x: -0.08680174, y: -0.00000012561222, z: 0.0000004820073, w: 0.9962256}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistleg07
+      parentName: Zack_skin_Rg_twistleg06
+      position: {x: -0.0070007895, y: -0.000000010130958, z: 0.000000038875164}
+      rotation: {x: -0.08693382, y: -0.00000012630429, z: 0.0000002349636, w: 0.9962141}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistleg08
+      parentName: Zack_skin_Rg_twistleg07
+      position: {x: -0.008641889, y: -0.000000012555616, z: 0.000000023357185}
+      rotation: {x: -0.08705088, y: 0.000007940764, z: 0.0000012663596, w: 0.9962039}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistleg09
+      parentName: Zack_skin_Rg_twistleg08
+      position: {x: -0.009189558, y: 0.000000016655994, z: -0.00000006711351}
+      rotation: {x: -0.08713822, y: 0.00000014101734, z: -0.0000005522936, w: 0.9961962}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistleg10
+      parentName: Zack_skin_Rg_twistleg09
+      position: {x: -0.008095926, y: 0.000000013101781, z: -0.00000005131306}
+      rotation: {x: -0.087185614, y: -0.0000081331245, z: -0.0000003313343, w: 0.9961921}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_twistleg_end
+      parentName: Zack_skin_Rg_twistleg10
+      position: {x: -0.009081853, y: 7.4868584e-10, z: 0.000000034396127}
+      rotation: {x: 0.54798365, y: 0.57973474, z: -0.4142235, w: 0.43822432}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_foot
+      parentName: Zack_grp_Rg_leg_joints
+      position: {x: 0.021394325, y: 0.025021495, z: -0.0035573042}
+      rotation: {x: 0.028072506, y: 0.70654935, z: -0.028072506, w: 0.70654935}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_toes
+      parentName: Zack_skin_Rg_foot
+      position: {x: -0.04307013, y: -0.016483795, z: 9.56349e-18}
+      rotation: {x: -6.938894e-18, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Rg_foot_end
+      parentName: Zack_skin_Rg_toes
+      position: {x: -0.013605672, y: -4.440892e-18, z: 3.021066e-18}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_Rg_leg_ac
+      parentName: Zack_grp_Rg_leg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_knee
+      parentName: Zack_grp_Rg_leg_ac
+      position: {x: 0.0198457, y: 0.096052594, z: 0.06573033}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_knee
+      parentName: Zack_offset_Rg_knee
+      position: {x: -0, y: 0.0008635139, z: 0.0006414354}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_ikfoot
+      parentName: Zack_grp_Rg_leg_ac
+      position: {x: 0.01953018, y: 0.023997672, z: -0.0035573118}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_ikfoot
+      parentName: Zack_offset_Rg_ikfoot
+      position: {x: -0, y: 0, z: 5.775706e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_iktoes
+      parentName: Zack_ac_Rg_ikfoot
+      position: {x: -0.04307013, y: -0.016483795, z: 1.11022296e-17}
+      rotation: {x: 6.938894e-18, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_iktoes
+      parentName: Zack_offset_Rg_iktoes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_loc_Rg_in
+      parentName: Zack_ac_Rg_ikfoot
+      position: {x: -0.01981027, y: -0.02285317, z: -0.015333561}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_loc_Rg_out
+      parentName: Zack_loc_Rg_in
+      position: {x: 1.0547119e-17, y: 0.0010503073, z: 0.027622148}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_loc_Rg_heel
+      parentName: Zack_loc_Rg_out
+      position: {x: 0.033745952, y: -0.0011495318, z: -0.011313643}
+      rotation: {x: 0.03970052, y: -0, z: -0, w: 0.99921167}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_loc_Rg_toe
+      parentName: Zack_loc_Rg_heel
+      position: {x: -0.07165747, y: 0, z: -0.0013590414}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_loc_Rg_ball
+      parentName: Zack_loc_Rg_toe
+      position: {x: 0.014651662, y: 0.007513877, z: 0.00067929854}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_loc_Rg_ankle
+      parentName: Zack_loc_Rg_ball
+      position: {x: 0.04307013, y: 0.016483795, z: 2.6714741e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_fkupleg
+      parentName: Zack_grp_Rg_leg_ac
+      position: {x: 0.0198457, y: 0.14864899, z: 0}
+      rotation: {x: 0.7071068, y: -0.7071068, z: -4.3297806e-17, w: 4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_fkupleg
+      parentName: Zack_offset_Rg_fkupleg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_fklowleg
+      parentName: Zack_ac_Rg_fkupleg
+      position: {x: 0.0525964, y: 0, z: 0}
+      rotation: {x: 0, y: -0.02466219, z: -0, w: 0.99969584}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_fklowleg
+      parentName: Zack_offset_Rg_fklowleg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_fkfoot
+      parentName: Zack_ac_Rg_fklowleg
+      position: {x: 0.07214268, y: 0.00031551812, z: 0.0000000010898137}
+      rotation: {x: 0.512179, y: -0.48751682, z: 0.48751682, w: 0.512179}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_fkfoot
+      parentName: Zack_offset_Rg_fkfoot
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Rg_fktoes
+      parentName: Zack_ac_Rg_fkfoot
+      position: {x: -0.04307013, y: -0.016483795, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_fktoes
+      parentName: Zack_offset_Rg_fktoes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Rg_ikfklegs
+      parentName: Zack_grp_Rg_leg_ac
+      position: {x: 0.020620927, y: 0.0010094929, z: -0.039588362}
+      rotation: {x: 1.387779e-17, y: 4.8186246e-35, z: -0.03970052, w: 0.99921167}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_Rg_leg_elem
+      parentName: Zack_grp_Rg_leg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ik_Rg_leg
+      parentName: Zack_grp_Rg_leg_elem
+      position: {x: 0.02170985, y: 0.025021268, z: -0.0035573097}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ik_Rg_twistleg
+      parentName: Zack_grp_Rg_leg_elem
+      position: {x: 0.021709621, y: 0.025021523, z: -0.0035571712}
+      rotation: {x: 0.50836205, y: 0.4888749, z: 0.5183346, w: 0.48363063}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_Lf_leg
+      parentName: Zack_ac_cn_grobal
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_Lf_leg_joints
+      parentName: Zack_grp_Lf_leg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offsetSK_Lf_upleg
+      parentName: Zack_grp_Lf_leg_joints
+      position: {x: -0.019845689, y: 0.14864877, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_upleg
+      parentName: Zack_offsetSK_Lf_upleg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.0000017224947, y: 0.0000017224947, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_lowleg
+      parentName: Zack_skin_Lf_upleg
+      position: {x: -0.052596144, y: 2.220446e-18, z: 0}
+      rotation: {x: -7.828592e-17, y: -0.024666399, z: 2.2365236e-15, w: 0.9996957}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_leg_end
+      parentName: Zack_skin_Lf_lowleg
+      position: {x: -0.072142705, y: -2.220446e-18, z: -1.110223e-18}
+      rotation: {x: -0.0006981501, y: 0.0009587902, z: -0.70344245, w: 0.71075124}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_crv_Lf_twistleg
+      parentName: Zack_skin_Lf_lowleg
+      position: {x: -0.09593577, y: -0.019845689, z: 0.0047363793}
+      rotation: {x: -0.017440058, y: 0.017440058, z: -0.7068917, w: 0.7068917}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_twistleg01
+      parentName: Zack_grp_Lf_leg_joints
+      position: {x: -0.019845689, y: 0.09605262, z: 0.00000025624578}
+      rotation: {x: 0.01744051, y: -0.01744048, z: 0.7068911, w: 0.70689225}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nombre_skin_Lf_twistleg02
+      parentName: Zack_skin_Lf_twistleg01
+      position: {x: -0.007126588, y: -0.0000000016731786, z: 0.000000010464858}
+      rotation: {x: 0.087155744, y: 0.000000004431549, z: 3.677286e-17, w: 0.9961947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nombre_skin_Lf_twistleg03
+      parentName: nombre_skin_Lf_twistleg02
+      position: {x: -0.0052627027, y: -2.6758906e-10, z: -2.220446e-18}
+      rotation: {x: 0.087155744, y: 0.000000021867642, z: -5.883635e-17, w: 0.9961947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nombre_skin_Lf_twistleg04
+      parentName: nombre_skin_Lf_twistleg03
+      position: {x: -0.0049338024, y: -0.0000000012379061, z: 2.220446e-18}
+      rotation: {x: 0.087155744, y: -0.000000055999646, z: 4.1517015e-25, w: 0.9961947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nombre_skin_Lf_twistleg05
+      parentName: nombre_skin_Lf_twistleg04
+      position: {x: -0.004824169, y: 0.000000003099644, z: 0}
+      rotation: {x: 0.087155744, y: -0.000000029863198, z: 2.5581225e-17, w: 0.9961947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nombre_skin_Lf_twistleg06
+      parentName: nombre_skin_Lf_twistleg05
+      position: {x: -0.0075651035, y: 0.0000000025921207, z: 0}
+      rotation: {x: 0.087155744, y: -0.000000019533655, z: 1.0379254e-24, w: 0.9961947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nombre_skin_Lf_twistleg07
+      parentName: nombre_skin_Lf_twistleg06
+      position: {x: -0.007236203, y: 0.0000000016218037, z: 0}
+      rotation: {x: 0.087155744, y: -0.00000004804332, z: 2.3534825e-17, w: 0.9961947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nombre_skin_Lf_twistleg08
+      parentName: nombre_skin_Lf_twistleg07
+      position: {x: -0.008222904, y: 0.0000000045327546, z: 0}
+      rotation: {x: 0.087155744, y: 0.000000046464844, z: 0, w: 0.9961947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nombre_skin_Lf_twistleg09
+      parentName: nombre_skin_Lf_twistleg08
+      position: {x: -0.008990438, y: -0.0000000047930206, z: 0}
+      rotation: {x: 0.087155744, y: 0.000000046464844, z: 0, w: 0.9961947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nombre_skin_Lf_twistleg10
+      parentName: nombre_skin_Lf_twistleg09
+      position: {x: -0.008990438, y: -0.0000000047930206, z: 0}
+      rotation: {x: 0.087155744, y: -0.000000008903224, z: 0.00000010145013, w: 0.9961947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_twistleg_end
+      parentName: nombre_skin_Lf_twistleg10
+      position: {x: -0.008990354, y: 9.18392e-10, z: -0.000000010464858}
+      rotation: {x: 0.48751593, y: 0.5121799, z: -0.48751593, w: 0.5121799}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_foot
+      parentName: Zack_grp_Lf_leg_joints
+      position: {x: -0.019845689, y: 0.023997676, z: -0.0035573118}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_toes
+      parentName: Zack_skin_Lf_foot
+      position: {x: -0.04307013, y: -0.016483795, z: 9.56349e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_skin_Lf_foot_end
+      parentName: Zack_skin_Lf_toes
+      position: {x: -0.013605672, y: -4.440892e-18, z: 3.021066e-18}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_Lf_leg_ac
+      parentName: Zack_grp_Lf_leg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_knee
+      parentName: Zack_grp_Lf_leg_ac
+      position: {x: -0.019845689, y: 0.09605262, z: 0.06573033}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_knee
+      parentName: Zack_offset_Lf_knee
+      position: {x: -0, y: 0.0008635139, z: 0.0006414354}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_ikfoot
+      parentName: Zack_grp_Lf_leg_ac
+      position: {x: -0.019845689, y: 0.023997672, z: -0.0035573118}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_ikfoot
+      parentName: Zack_offset_Lf_ikfoot
+      position: {x: -0, y: 0, z: 2.6241857e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_iktoes
+      parentName: Zack_ac_Lf_ikfoot
+      position: {x: -0.04307013, y: -0.016483795, z: 4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_iktoes
+      parentName: Zack_offset_Lf_iktoes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_loc_Lf_in
+      parentName: Zack_ac_Lf_ikfoot
+      position: {x: -0.01981027, y: -0.023997672, z: 0.011947714}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_loc_Lf_out
+      parentName: Zack_loc_Lf_in
+      position: {x: -4.440892e-18, y: 0, z: -0.025756935}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_loc_Lf_heel
+      parentName: Zack_loc_Lf_out
+      position: {x: 0.033745952, y: 0, z: 0.014488965}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_loc_Lf_toe
+      parentName: Zack_loc_Lf_heel
+      position: {x: -0.07165747, y: 0, z: -0.0013590414}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_loc_Lf_ball
+      parentName: Zack_loc_Lf_toe
+      position: {x: 0.014651662, y: 0.007513877, z: 0.00067929854}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_loc_Lf_ankle
+      parentName: Zack_loc_Lf_ball
+      position: {x: 0.043070134, y: 0.016483795, z: 0}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_fkupleg
+      parentName: Zack_grp_Lf_leg_ac
+      position: {x: -0.019845689, y: 0.14864877, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_fkupleg
+      parentName: Zack_offset_Lf_fkupleg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_fklowleg
+      parentName: Zack_ac_Lf_fkupleg
+      position: {x: -0.052596144, y: 2.220446e-18, z: 0}
+      rotation: {x: 0, y: -0.02466219, z: -0, w: 0.99969584}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_fklowleg
+      parentName: Zack_offset_Lf_fklowleg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_fkfoot
+      parentName: Zack_ac_Lf_fklowleg
+      position: {x: -0.072142705, y: -9.870999e-12, z: -7.944302e-11}
+      rotation: {x: -0.48751682, y: -0.512179, z: 0.512179, w: -0.48751682}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_fkfoot
+      parentName: Zack_offset_Lf_fkfoot
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_offset_Lf_fktoes
+      parentName: Zack_ac_Lf_fkfoot
+      position: {x: -0.04307013, y: -0.016483795, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_fktoes
+      parentName: Zack_offset_Lf_fktoes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ac_Lf_ikfklegs
+      parentName: Zack_grp_Lf_leg_ac
+      position: {x: -0.02041229, y: 0.0000000042094856, z: -0.03958837}
+      rotation: {x: 0, y: 1.2246469e-16, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_grp_Lf_leg_elem
+      parentName: Zack_grp_Lf_leg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ik_Lf_leg
+      parentName: Zack_grp_Lf_leg_elem
+      position: {x: -0.019845689, y: 0.023997677, z: -0.0035573116}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Zack_ik_Lf_twistleg
+      parentName: Zack_grp_Lf_leg_elem
+      position: {x: -0.019845827, y: 0.023997689, z: -0.0035573994}
+      rotation: {x: 0.5121807, y: 0.4875151, z: 0.51217985, w: 0.48751593}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform1
+      parentName: personaje_Tpose_FBX(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform2
+      parentName: personaje_Tpose_FBX(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Zack_skin_cn_back01
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
