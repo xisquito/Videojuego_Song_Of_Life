@@ -10,6 +10,8 @@ public class Target : MonoBehaviour
     private AudioSource playerAudioSource;
     public AudioClip targetClip;
 
+    
+
     [SerializeField] private int points; // Puntos que da el target
     private bool clickedOnGoodTarget;
 
@@ -19,6 +21,8 @@ public class Target : MonoBehaviour
         gameManagerScript = FindObjectOfType<GameManager>();
 
         playerAudioSource = GetComponent<AudioSource>();
+
+        
     }
 
     // Update is called once per frame
