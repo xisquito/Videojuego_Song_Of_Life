@@ -7,7 +7,8 @@ public class Target : MonoBehaviour
     public ParticleSystem explosionParticle;
     private GameManager gameManagerScript;
 
-    
+    private AudioSource playerAudioSource;
+    public AudioClip targetClip;
 
     [SerializeField] private int points; // Puntos que da el target
     private bool clickedOnGoodTarget;
@@ -16,7 +17,8 @@ public class Target : MonoBehaviour
     void Start()
     {
         gameManagerScript = FindObjectOfType<GameManager>();
-        
+
+        playerAudioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -35,7 +37,8 @@ public class Target : MonoBehaviour
             Instantiate(explosionParticle,
                transform.position,
                explosionParticle.transform.rotation);
-            
+            playerAudioSource.PlayOneShot(targetClip);
+
 
 
             if (gameObject.CompareTag("Player"))
