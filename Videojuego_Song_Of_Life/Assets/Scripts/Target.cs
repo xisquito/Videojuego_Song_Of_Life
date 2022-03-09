@@ -43,8 +43,7 @@ public class Target : MonoBehaviour
                explosionParticle.transform.rotation);
             playerAudioSource.PlayOneShot(targetClip);
 
-
-
+            
             if (gameObject.CompareTag("Player"))
             {
                 clickedOnGoodTarget = true;
