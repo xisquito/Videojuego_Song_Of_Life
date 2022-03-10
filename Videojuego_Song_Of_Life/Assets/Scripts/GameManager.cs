@@ -12,6 +12,10 @@ public class GameManager : MonoBehaviour
     private int score;
 
 
+    public GameObject gameOverPanel;
+    private AudioSource playerAudioSource;
+    public AudioClip targetClip;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +25,13 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (score == 200f)
+        {
+            gameOver = true;
+            gameOverPanel.SetActive(true);
+            Time.timeScale = 0f;
+            playerAudioSource.PlayOneShot(targetClip);
+        }
     }
 
     public void UpdateScore(int pointsToAdd)
@@ -33,8 +43,11 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        gameOver = true;
-        
+        if (score == 100f)
+        {
+            gameOver = true;
+            gameOverPanel.SetActive(true);
+        }
     }
 
     public void StartGame()
