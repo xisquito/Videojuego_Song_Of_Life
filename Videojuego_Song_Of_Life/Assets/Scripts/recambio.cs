@@ -2,27 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/*public class recambio : MonoBehaviour
+public class recambio : MonoBehaviour
 {
 
-    private Animator animator;
+
+    private bool isAnimating;
+    private Animator anim;
     GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<Animator>();
-        gameManager = GetComponent<GameManager>();
+        anim = GetComponent<Animator>();
+        isAnimating = anim.GetBool("animacion");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (animator != 1)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            if ()
-            {
-                //animator.SetTrigger(//Nom de s'animació entre comilles)
-            }
+            Debug.Log("PULSANDO");
+            isAnimating = !isAnimating;
+            anim.SetBool("animacion", isAnimating);
         }
+       
     }
-}*/
+}
